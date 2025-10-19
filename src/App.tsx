@@ -1,7 +1,7 @@
 const App = () => {
   return (
-    <div>Hello Macbook Apple Pro</div>
-  )
+    <h2 className="font-black bg-red-500">Hello Macbook Apple Pro</h2>
+  );
 }
 
-export default App
+export default App;
