@@ -1,6 +1,14 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import ProductViewer from "./components/ProductViewer";
+
 const App = () => {
   return (
-    <h2 className="font-black bg-red-500">Hello Macbook Apple Pro</h2>
+    <>
+      <Navbar />
+      <Hero />
+      <ProductViewer />
+    </>
   );
 }
 
